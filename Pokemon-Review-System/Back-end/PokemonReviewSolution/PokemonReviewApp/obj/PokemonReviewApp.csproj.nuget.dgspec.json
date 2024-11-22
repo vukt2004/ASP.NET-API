@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Full_Stack\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\PokemonReviewApp.csproj": {}
+    "E:\\Full_Stack\\ASP.NET-API\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\PokemonReviewApp.csproj": {}
   },
   "projects": {
-    "E:\\Full_Stack\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\PokemonReviewApp.csproj": {
+    "E:\\Full_Stack\\ASP.NET-API\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\PokemonReviewApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Full_Stack\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\PokemonReviewApp.csproj",
+        "projectUniqueName": "E:\\Full_Stack\\ASP.NET-API\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\PokemonReviewApp.csproj",
         "projectName": "PokemonReviewApp",
-        "projectPath": "E:\\Full_Stack\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\PokemonReviewApp.csproj",
+        "projectPath": "E:\\Full_Stack\\ASP.NET-API\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\PokemonReviewApp.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\Full_Stack\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\obj\\",
+        "outputPath": "E:\\Full_Stack\\ASP.NET-API\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
