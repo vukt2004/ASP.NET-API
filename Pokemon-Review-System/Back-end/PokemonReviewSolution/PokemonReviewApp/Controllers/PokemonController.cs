@@ -33,27 +33,27 @@ namespace PokemonReviewApp.Controllers
             return Ok(pokemons);
         }
 
-        [HttpGet("{pokeId}")]
+        [HttpGet("{pokemonId}")]
         [ProducesResponseType(200, Type=typeof(Pokemon))]
         [ProducesResponseType(400)]
-        public IActionResult GetPokemonId(string pokeId)
+        public IActionResult GetPokemonId(string pokemonId)
         {
-            if (!_pokemonRepo.PokemonExists(pokeId))
+            if (!_pokemonRepo.PokemonExists(pokemonId))
                 return NotFound();
-            var pokemon = _mapper.Map<PokemonDto>(_pokemonRepo.GetPokemonById(pokeId));
+            var pokemon = _mapper.Map<PokemonDto>(_pokemonRepo.GetPokemonById(pokemonId));
             if(!ModelState.IsValid)
                 return BadRequest(ModelState);
             return Ok(pokemon);
         }
 
-        [HttpGet("{pokeId}/Rating")]
+        [HttpGet("{pokemonId}/Rating")]
         [ProducesResponseType(200, Type = typeof(decimal))]
         [ProducesResponseType(400)]
-        public IActionResult GetPokemonRating(string pokeId)
+        public IActionResult GetPokemonRating(string pokemonId)
         {
-            if (!_pokemonRepo.PokemonExists(pokeId))
+            if (!_pokemonRepo.PokemonExists(pokemonId))
                 return NotFound();
-            var rating = _pokemonRepo.GetPokemonByRating(pokeId);
+            var rating = _pokemonRepo.GetPokemonByRating(pokemonId);
             if (!ModelState.IsValid) 
                 return BadRequest(ModelState);
             return Ok(rating);
