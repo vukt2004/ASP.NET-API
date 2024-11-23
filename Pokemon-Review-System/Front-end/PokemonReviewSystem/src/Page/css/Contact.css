@@ -1,0 +1,18 @@
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contact-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .ant-form-item-label > label {
+    font-weight: bold;
+  }
+  
+  .ant-btn-primary {
+    width: 100%;
+  }
