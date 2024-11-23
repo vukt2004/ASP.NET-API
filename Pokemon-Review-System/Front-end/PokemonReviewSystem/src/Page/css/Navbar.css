@@ -1,11 +1,116 @@
-/* PokemonReviewSystem/src/Page/Navbar.css */
 .navbar {
+    background: rgba(152, 213, 220, 0.98) !important;
+    backdrop-filter: blur(10px);
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+    height: 70px;
+    line-height: 70px;
+}
+
+.navbar-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    height: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+    transform: translateY(-1px);
+}
+
+.navbar-logo {
+    width: 35px;
+    height: 35px;
+    margin-right: 12px;
+    transition: transform 0.5s ease;
+}
+
+.navbar-brand:hover .navbar-logo {
+    transform: rotate(15deg);
+}
+
+.nav-menu {
+    background: transparent !important;
+    border: none;
     display: flex;
     align-items: center;
 }
 
-.navbar-brand {
-    color: white; /* White text for brand */
-    font-size: 24px; /* Larger font for brand */
-    margin-right: 20px; /* Space between brand and menu */
+.nav-menu .ant-menu-item {
+    padding: 0 24px;
+    margin: 0 4px;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.nav-menu .ant-menu-item a {
+    color: #2c3e50;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.nav-menu .ant-menu-item:hover {
+    color: #3498db !important;
+    border-bottom-color: #3498db;
+    background: transparent !important;
+}
+
+.nav-menu .ant-menu-item-selected {
+    color: #3498db !important;
+    border-bottom-color: #3498db !important;
+    background: transparent !important;
+}
+
+.nav-menu .ant-menu-item::after {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-content {
+        padding: 0 16px;
+    }
+
+    .navbar-brand span {
+        font-size: 1.2rem;
+    }
+
+    .nav-menu .ant-menu-item {
+        padding: 0 12px;
+    }
+
+    .nav-menu .ant-menu-item a {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar-brand span {
+        display: none;
+    }
+
+    .navbar-logo {
+        margin-right: 0;
+    }
+
+    .nav-menu .ant-menu-item {
+        padding: 0 8px;
+    }
 }
