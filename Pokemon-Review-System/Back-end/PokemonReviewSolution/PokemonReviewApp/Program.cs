@@ -12,6 +12,16 @@ namespace PokemonReviewApp
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            // Configure CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowReactApp",
+                    builder => builder
+                        .WithOrigins("http://localhost:5173") // Allow your React app's origin
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+            });
+
             // Add services to the container.
 
             builder.Services.AddControllers();
@@ -40,6 +50,7 @@ namespace PokemonReviewApp
 
             app.UseAuthorization();
 
+            app.UseCors("AllowReactApp");
 
             app.MapControllers();
 

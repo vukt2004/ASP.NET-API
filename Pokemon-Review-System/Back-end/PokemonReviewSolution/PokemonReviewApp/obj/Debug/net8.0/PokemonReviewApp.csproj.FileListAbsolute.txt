@@ -336,3 +336,4 @@ E:\Full_Stack\ASP.NET-API\Pokemon-Review-System\Back-end\PokemonReviewSolution\P
 E:\Full_Stack\ASP.NET-API\Pokemon-Review-System\Back-end\PokemonReviewSolution\PokemonReviewApp\obj\Debug\net8.0\PokemonReviewApp.genruntimeconfig.cache
 E:\Full_Stack\ASP.NET-API\Pokemon-Review-System\Back-end\PokemonReviewSolution\PokemonReviewApp\obj\Debug\net8.0\ref\PokemonReviewApp.dll
 E:\Full_Stack\ASP.NET-API\Pokemon-Review-System\Back-end\PokemonReviewSolution\PokemonReviewApp\bin\Debug\net8.0\AutoMapper.dll
+E:\Full_Stack\ASP.NET-API\Pokemon-Review-System\Back-end\PokemonReviewSolution\PokemonReviewApp\bin\Debug\net8.0\System.Web.Cors.dll
