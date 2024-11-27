@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5294/api';
+const API_URL = 'https://localhost:7081/api';
 
 export const getAllPokemons = async () => {
   try {
@@ -6,8 +6,8 @@ export const getAllPokemons = async () => {
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-    const data = await response.json();
-    return data;
+    // const data = await response.json();
+    return await response.json();
   } catch (error) {
     console.error('Error fetching Pokemons:', error);
     return error;
