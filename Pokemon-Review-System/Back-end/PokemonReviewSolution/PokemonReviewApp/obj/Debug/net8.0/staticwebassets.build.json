@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "Egb8OgIyobip2+FOpiEBDAD36dWuqtMyD2AwXtAmSX0=",
+  "Hash": "vJZwg86hp/CIXNZt88X6Wrr2SLnQEBrzqghKSVoZz2c=",
   "Source": "PokemonReviewApp",
   "BasePath": "_content/PokemonReviewApp",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

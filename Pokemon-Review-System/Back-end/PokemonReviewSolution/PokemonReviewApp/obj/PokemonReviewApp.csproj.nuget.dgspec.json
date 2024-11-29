@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Full_Stack\\ASP.NET-API\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\PokemonReviewApp.csproj": {}
+    "D:\\ASP.NET\\ASP.NET-API\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\PokemonReviewApp.csproj": {}
   },
   "projects": {
-    "E:\\Full_Stack\\ASP.NET-API\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\PokemonReviewApp.csproj": {
+    "D:\\ASP.NET\\ASP.NET-API\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\PokemonReviewApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Full_Stack\\ASP.NET-API\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\PokemonReviewApp.csproj",
+        "projectUniqueName": "D:\\ASP.NET\\ASP.NET-API\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\PokemonReviewApp.csproj",
         "projectName": "PokemonReviewApp",
-        "projectPath": "E:\\Full_Stack\\ASP.NET-API\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\PokemonReviewApp.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\Full_Stack\\ASP.NET-API\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\obj\\",
+        "projectPath": "D:\\ASP.NET\\ASP.NET-API\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\PokemonReviewApp.csproj",
+        "packagesPath": "C:\\Users\\vundh\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.NET\\ASP.NET-API\\Pokemon-Review-System\\Back-end\\PokemonReviewSolution\\PokemonReviewApp\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vundh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +27,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +43,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         }
       },
       "frameworks": {
@@ -72,7 +76,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.1.0, )"
             }
           },
           "imports": [
@@ -94,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

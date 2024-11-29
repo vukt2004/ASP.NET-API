@@ -1,0 +1,84 @@
+/* Full-page layout */
+.error-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffe5e5, #ffc3a0);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Ant Design Result customization */
+  .ant-result {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Title styling */
+  .error-title {
+    font-size: 80px;
+    font-weight: bold;
+    color: #ff6f61;
+    text-shadow: 2px 2px 4px rgba(255, 183, 178, 0.8);
+  }
+  
+  /* Subtitle styling */
+  .error-subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-top: -10px;
+  }
+  
+  /* Content layout */
+  .error-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Pokémon image styling */
+  .pokemon-image {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    animation: bounce 2s infinite;
+  }
+  
+  /* Error message text */
+  .error-message {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  /* Button styling */
+  .home-button {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+    color: white;
+    font-weight: bold;
+    padding: 10px 24px;
+    transition: all 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #ff8968;
+    border-color: #ff8968;
+    transform: scale(1.1);
+  }
+  
+  /* Bouncing animation for the Pokémon */
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
